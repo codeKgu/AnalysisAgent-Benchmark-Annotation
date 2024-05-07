@@ -1,4 +1,4 @@
-# Anaysis Benchmark Annotation Protocol
+# Analysis Benchmark Annotation Protocol
 
 In a standard scientific analysis, one analyst or team presents a single analysis of a dataset. However, there are often a variety of defensible analytic strategies that could be used on the same data.
 
