@@ -2,18 +2,16 @@
 
 In a standard scientific analysis, one analyst or team presents a single analysis of a dataset. However, there are often a variety of defensible analytic strategies that could be used on the same data.
 
-![](images/intro.png)
+<img src="images/intro.png" width="500"/>
 
 At a high level, we want to specify all alternative decisions that you think are reasonable for the analysis (this is well-defined in prior literature as _[multiverse analysis](https://en.wikipedia.org/wiki/Multiverse_analysis)_).
 
 With your help, we would like to collect the ground truth of analysis decisions used for benchmarking the performance of LLMs and agents for data analysis. Your specifications will be used as ground truth from which we measure LLMs against. Here, we describe the protocol for obtaining this data:
 
 ## Part 1 Perform your own analysis
-
-The data and interface to specify your transformations, variable, and statistical modeling choices is available at [here](http://bicycle.cs.washington.edu:12000).
-
 ![Website](https://img.shields.io/website?url=http%3A%2F%2Fbicycle.cs.washington.edu%3A12000&up_message=live&up_color=down&style=flat&cacheSeconds=60)
 
+The data and interface to specify your transformations, variable, and statistical modeling choices is available at [here](http://bicycle.cs.washington.edu:12000).
 We will give you specific datasets to work on.
 
 ### Step 1 Understand the analysis
@@ -48,6 +46,7 @@ For a given analysis problem, there is a decision space of reasonable analysis d
 Here is a categorization of some of the alternative decision points for your reference:
 
 ![](images/alternatives.png)
+
 
 ## Part 2 Add your analysis to the UI
 
