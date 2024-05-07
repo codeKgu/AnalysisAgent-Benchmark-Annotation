@@ -2,6 +2,14 @@
 
 Here's some common statistical models. In your specs you are welcome to use but are definitely not limited to those models below. 
 
+In addition these textbooks are great resources for statistical modeling:
+
+* [Regression and Other Stories by Andrew Gelman, Jennifer Hill, and Aki Vehtari](https://avehtari.github.io/ROS-Examples/) [![pdf](https://badgen.net/static/%20/PDF/red?icon=https://www.svgrepo.com/download/66745/pdf.svg)](https://users.aalto.fi/~ave/ROS.pdf)
+* [Statistical Rethinking by Richard McElreath
+](https://github.com/rmcelreath/stat_rethinking_2024) [![pdf](https://badgen.net/static/%20/PDF/red?icon=https://www.svgrepo.com/download/66745/pdf.svg)](https://civil.colorado.edu/~balajir/CVEN6833/bayes-resources/RM-StatRethink-Bayes.pdf)
+
+
+
 ## Linear Regression
 
 Assumes a linear relationship between the dependent variable and independent variable(s)
