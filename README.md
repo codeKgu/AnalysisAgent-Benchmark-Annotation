@@ -1,13 +1,59 @@
 # Anaysis Benchmark Annotation Protocol
 
-## Intro
+In a standard scientific analysis, one analyst or team presents a single analysis of a dataset. However, there are often a variety of defensible analytic strategies that could be used on the same data.
+
+![](images/intro.png)
+
+At a high level, we want to specify all alternative decisions that you think are reasonable for the analysis (this is well-defined in prior literature as _[multiverse analysis](https://en.wikipedia.org/wiki/Multiverse_analysis)_).
+
+With your help, we would like to collect the ground truth of analysis decisions used for benchmarking the performance of LLMs and agents for data analysis. Your specifications will be used as ground truth from which we measure LLMs against. Here, we describe the protocol for obtaining this data:
 
 ## Part 1 Performing your own analysis
+
+The data and interface to specify your transformations, variable, and statistical modeling choices is available at:
+http://bicycle.cs.washington.edu:12000/
+
+We will give you specific datasets to work on.
+
+### Step 1 Understand the analysis
+
+Read the research question, and any related background information, and conduct the analysis. Here is an example analysis completed by one of the coauthors with the task instructions and background:
+
+[![Notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oKYN1lgyR5w7YTTP1ilsFa_sVAAedLoT?usp=sharing) [![Instructions](https://badgen.net/static/%20/Open%20the%20analysis%20instructions?icon=https://mailmeteor.com/logos/assets/SVG/Google_Docs_Logo.svg)](https://docs.google.com/document/d/1KmakwDZ-pb_qJFOc_i6QhJ9iVeJzNpK0q24xCAOqVak/edit#heading=h.oq1dtav6hvu4) [![](https://badgen.net/static/%20/Download%20the%20dataset/green/?icon=https://mailmeteor.com/logos/assets/SVG/Google_Sheets_Logo.svg)](https://docs.google.com/spreadsheets/d/13pjau1iWvbCkxrt8xBWdGc2CCQlukVxTOpfw-zyBaQs/edit#gid=2084688865)
+
+<!-- | :-------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: | -->
+
+### Step 2 Consider the types of alternative valid decisions in the analysis
+
+While conducting the analysis, you also need to note alternative analysis decisions and record them into the system. This is because we want to achieve good coverage for the ground truth set that you help to build.
+
+### FAQs
+
+#### What are the expectations for statistical modelling?
+
+As experts, your extensive experience in conducting thorough and iterative model comparison, feature selection, and other analysis steps for your research projects is invaluable. While we encourage you to apply the knowledge and experience gained from your comprehensive analyses, for the purpose of our data collection, we aim for the quality of an "excellent class report." This means that the models should reasonably capture the relationships between variables and effectively address the research question.
+Please note that the focus should be on creating models that are reasonable and justifiable, rather than striving for the level of rigor and thoroughness typically required in practice. We trust your judgment in determining which models are appropriate for inclusion in the ground truth dataset.
+
+#### What do we mean by alternative analysis decisions?
+
+For a given analysis problem, there is a decision space of reasonable analysis decisions surrounding the conceptual model and data transformations. Alternative decisions are equally justifiable choices within this decision space. The justifiability of decisions involves rationales tied to the data, your analysis method, prior experience, some domain knowledge.
+
+#### Where to consider alterneratives?
+
+- **Transformations**: Alternative decisions can exist for data transformations, such as different ways to operationalize the same variable or different ways to handle missing values.
+- **Conceptual Variables**: There may be alternative reasonable answers when specifying aspects of the conceptual model, like the independent variable, dependent variable, covariates.
+- **Statistical models**: Multiple statistical models may be justifiable alternatives for the same analysis problem.
+
+Here is a categorization of some of the alternative decision points for your reference:
+
+![](images/alternatives.png)
 
 ## Part 2 Inputting your analysis in the UI
 
 After the analysis, we need to input our analysis into a specific format. We describe this process here. We include a video tutorial as well, which inputs the analysis (very basic toy example) specified in this [notebook](tutorial/soccer_tutorial.ipynb) into the UI.
 [![](images/youtube.png)](https://www.youtube.com/watch?v=XkaSKPQbSZ8)
+
+You can also access this specification by logging in with the username `tutorial`
 
 ### Step 1 Add Data Transformations
 
