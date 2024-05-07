@@ -18,11 +18,14 @@ We will give you specific datasets to work on.
 
 Read the research question, and any related background information, and conduct the analysis. Note that the amount of data transformations needed varies across dataset. It is not always necessary to do a lot of transformations.
 
-Here is an example analysis completed by one of the coauthors with the task instructions and background:
+**Resources 1** Example analysis completed by one of the coauthors with the task instructions and background:
 
 [![Notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oKYN1lgyR5w7YTTP1ilsFa_sVAAedLoT?usp=sharing) [![Instructions](https://badgen.net/static/%20/Open%20the%20analysis%20instructions?icon=https://mailmeteor.com/logos/assets/SVG/Google_Docs_Logo.svg)](https://docs.google.com/document/d/1KmakwDZ-pb_qJFOc_i6QhJ9iVeJzNpK0q24xCAOqVak/edit#heading=h.oq1dtav6hvu4) [![](https://badgen.net/static/%20/Download%20the%20dataset/green/?icon=https://mailmeteor.com/logos/assets/SVG/Google_Sheets_Logo.svg)](https://docs.google.com/spreadsheets/d/13pjau1iWvbCkxrt8xBWdGc2CCQlukVxTOpfw-zyBaQs/edit#gid=2084688865)
 
 <!-- | :-------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: | -->
+
+**Resources 2** 
+You can refer to the [model cheatsheet](ModelCheatsheet.md) for the common classes of models that you can you. Note that this is only for reference, and your choice of model is not limited to this sheet.
 
 ### Step 2 Consider the types of alternative valid decisions in the analysis
 
@@ -34,6 +37,8 @@ While conducting the analysis, you also need to note alternative analysis decisi
 
 As experts, your extensive experience in conducting thorough and iterative model comparison, feature selection, and other analysis steps for your research projects is invaluable. While we encourage you to apply the knowledge and experience gained from your comprehensive analyses, for the purpose of our data collection, we aim for the quality of an "excellent class report." This means that the models should reasonably capture the relationships between variables and effectively address the research question.
 Please note that the focus should be on creating models that are reasonable and justifiable, rather than striving for the level of rigor and thoroughness typically required in practice. We trust your judgment in determining which models are appropriate for inclusion in the ground truth dataset.
+
+**ML models (e.g. SVM, Random Forest) should not be included because we don't have prediction tasks.**
 
 #### What do we mean by alternative analysis decisions?
 
