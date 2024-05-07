@@ -59,7 +59,7 @@ You can also access this specification by logging in with the username `tutorial
 
 ### Step 1 Add Data Transformations
 
-Transformations are individual unit data transformations we perform to the data to operationalize it before our model. We have defined a set of **transformation verbs** that represents each transformation. Each transformation should also have only one output column. Therefore, if your involve multiple of these unit transformations, we ask that you break this down. These are described in the [here](TransformVerbs.md).
+Transformations are individual unit data transformations we perform to the data to operationalize it before our model. We have defined a set of [**transformation verbs**](TransformVerbs.md) that represents each transformation. Each transformation should also have only one output column. Therefore, if your involve multiple of these unit transformations, we ask that you break this down.
 
 ![](images/transforms1.png)
 
