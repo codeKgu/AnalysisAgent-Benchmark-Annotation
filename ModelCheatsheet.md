@@ -1,5 +1,7 @@
 # Common Statistical Models
 
+Here's some common statistical models. In your specs you are welcome to but are not limited to those models below. 
+
 ## Linear Regression
 
 Assumes a linear relationship between the dependent variable and independent variable(s)
