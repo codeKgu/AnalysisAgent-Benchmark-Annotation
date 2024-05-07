@@ -14,7 +14,7 @@ With your help, we would like to collect the ground truth of analysis decisions 
 The data and interface to specify your transformations, variable, and statistical modeling choices is available at [here](http://bicycle.cs.washington.edu:12000).
 We will give you specific datasets to work on.
 
-### Step 1 Understand the analysis
+### Step 1 Conduct the analysis in your own environment
 
 Read the research question, and any related background information, and conduct the analysis. Note that the amount of data transformations needed varies across dataset. It is not always necessary to do a lot of transformations.
 
