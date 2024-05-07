@@ -36,7 +36,7 @@ model = sm.GLM(y, sm.add_constant(X), family=sm.families.Poisson(link=sm.familie
 print(model.summary())
 ```
 
-## Generalized Linear Mixed Models (GLMM)
+## Generalized Linear Mixed Models (GLMMs)
 
 Extends generalized linear models (GLMs) to include both fixed and random effects
 
