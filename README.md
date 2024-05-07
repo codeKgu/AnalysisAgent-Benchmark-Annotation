@@ -127,7 +127,7 @@ For each model please specify:
 - **Rationale**: Why is this model included?
 - **Code**: Copy paste the code you used to write this model
 - **Tags**: [Optional] These are used just for you to keep track of your specified models
-- **Associated transforms**: Sometimes after deriving a column, we may make additional transformations to the data before our model such as additional filters or droping missing values etc. Here we can specify the final transformation(s) (i.e., these transforms have no children transforms) associated with this model.
+- **Associated transforms**: Sometimes after deriving a column, we may make additional transformations to the data before our model such as additional filters or droping missing values etc. Here we can specify the final transformation(s) associated with this model.
 
 ### Step 4 Review all specifications
 
