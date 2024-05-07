@@ -1,6 +1,6 @@
 # Common Statistical Models
 
-Here's some common statistical models. In your specs you are welcome to but are not limited to those models below. 
+Here's some common statistical models. In your specs you are welcome to use but are definitely not limited to those models below. 
 
 ## Linear Regression
 
