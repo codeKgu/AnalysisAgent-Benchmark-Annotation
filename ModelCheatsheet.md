@@ -99,11 +99,7 @@ f_statistic, p_value = stats.f_oneway(group1, group2, group3)
 
 # Print results
 print(f"F-statistic: {f_statistic}, p-value: {p_value}")
-```
-
-
 
 # Print model summary
 cph.print_summary()
-\`\`\`
 ```
