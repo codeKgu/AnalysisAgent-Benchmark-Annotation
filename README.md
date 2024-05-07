@@ -24,7 +24,7 @@ Example analysis completed by one of the coauthors with the task instructions an
 <!-- | :-------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: | -->
 
 **Resources 2**
-You can refer to the [model cheatsheet](ModelCheatsheet.md) for the common classes of models that you can you. Note that this is only for reference, and your choice of model is not limited to this sheet.
+You can refer to the [model cheatsheet](ModelCheatsheet.md) for the common classes of models that you can use. Note that this is only for reference, and your choice of model is not limited to this sheet.
 
 ### Step 2 Consider the types of alternative valid decisions in the analysis
 
