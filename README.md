@@ -16,7 +16,9 @@ We will give you specific datasets to work on.
 
 ### Step 1 Understand the analysis
 
-Read the research question, and any related background information, and conduct the analysis. Here is an example analysis completed by one of the coauthors with the task instructions and background:
+Read the research question, and any related background information, and conduct the analysis. Note that the amount of data transformations needed varies across dataset. It is not always necessary to do a lot of transformations.
+
+Here is an example analysis completed by one of the coauthors with the task instructions and background:
 
 [![Notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oKYN1lgyR5w7YTTP1ilsFa_sVAAedLoT?usp=sharing) [![Instructions](https://badgen.net/static/%20/Open%20the%20analysis%20instructions?icon=https://mailmeteor.com/logos/assets/SVG/Google_Docs_Logo.svg)](https://docs.google.com/document/d/1KmakwDZ-pb_qJFOc_i6QhJ9iVeJzNpK0q24xCAOqVak/edit#heading=h.oq1dtav6hvu4) [![](https://badgen.net/static/%20/Download%20the%20dataset/green/?icon=https://mailmeteor.com/logos/assets/SVG/Google_Sheets_Logo.svg)](https://docs.google.com/spreadsheets/d/13pjau1iWvbCkxrt8xBWdGc2CCQlukVxTOpfw-zyBaQs/edit#gid=2084688865)
 
