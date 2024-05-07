@@ -18,6 +18,42 @@ model = sm.OLS(y, sm.add_constant(X)).fit()
 # Print model summary
 print(model.summary())
 ```
+## Generalized Linear Models (GLMs)
+
+Extends linear regression to non-normal response variables
+
+**Assumptions**: Depends on the specific GLM (e.g., Poisson, binomial, gamma)
+
+**Sample Code**:
+
+```python
+import statsmodels.api as sm
+
+# Fit GLM with Poisson distribution and log link function
+model = sm.GLM(y, sm.add_constant(X), family=sm.families.Poisson(link=sm.families.links.log)).fit()
+
+# Print model summary
+print(model.summary())
+```
+
+## Generalized Linear Mixed Models (GLMM)
+
+Extends generalized linear models (GLMs) to include both fixed and random effects
+
+**Assumptions**: Depends on the specific distribution and link function used
+
+**Sample Code**:
+
+```python
+import statsmodels.api as sm
+
+# Fit GLMM with Poisson distribution and log link function
+model = sm.GLMMPoissonLog.from_formula('y ~ x1 + x2 + (1|group)', data=data)
+result = model.fit()
+
+# Print model summary
+print(result.summary())
+```
 
 ## Logistic Regression
 
