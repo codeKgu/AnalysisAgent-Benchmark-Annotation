@@ -9,7 +9,7 @@ At a high level, we want to specify all alternative decisions that you think are
 With your help, we would like to collect the ground truth of analysis decisions used for benchmarking the performance of LLMs and agents for data analysis. Your specifications will be used as ground truth from which we measure LLMs against. Here, we describe the protocol for obtaining this data:
 
 ## Part 1 Perform your own analysis
-![Website](https://img.shields.io/website?url=http%3A%2F%2Fbicycle.cs.washington.edu%3A12000&up_message=live&up_color=down&style=flat&cacheSeconds=60)
+![Website](https://img.shields.io/website?url=http%3A%2F%2Fbicycle.cs.washington.edu%3A12000)
 
 The data and interface to specify your transformations, variable, and statistical modeling choices is available at [here](http://bicycle.cs.washington.edu:12000).
 We will give you specific datasets to work on.
