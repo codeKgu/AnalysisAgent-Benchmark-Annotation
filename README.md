@@ -93,7 +93,7 @@ Transformations are individual unit data transformations we perform to the data 
 
 ![](images/transforms1.png)
 
-For each transform we need to specify the following (e.g., [0:07 in the tutorial](https://youtu.be/XkaSKPQbSZ8?si=TcW-ZYASWMTuNYuX&t=7)):
+For each transform we need to specify the following (e.g., [0:07 in the tutorial](https://youtu.be/DdiMZNhu7do?si=TcW-ZYASWMTuNYuX&t=7)):
 
 #### 1.1 Basic Info
 
@@ -110,7 +110,7 @@ specify that here. A _branch_ represents an alternative code path. Each branch d
 
 **Branches Field**
 
-In the **Branches** field we can add a branch by first specifying which transformation(s) are this current specification's immediate parents. (e.g., [4:28 in the tutorial](https://youtu.be/XkaSKPQbSZ8?si=u0P8XukYIHPCBR6j&t=268)).
+In the **Branches** field we can add a branch by first specifying which transformation(s) are this current specification's immediate parents. (e.g., [4:28 in the tutorial](https://youtu.be/DdiMZNhu7do?si=u0P8XukYIHPCBR6j&t=268)).
 
 In this `groupby_player` transform spec example below, we specify four different alternative branches. Each of these branches depends on two previously specified transforms. The branches are:
 
@@ -135,7 +135,7 @@ Each _directed edge_ A -> B represents a specified dependency of transform B on 
 
 **Conditions**
 
-Sometimes, we may only want a current specification to run based on some condition or constraints on the choice of upstream specification. We can write a condition to specify this (see [7:36](https://youtu.be/XkaSKPQbSZ8?si=--UcC2-hBykYCLyL&t=455) and [11:38](https://youtu.be/XkaSKPQbSZ8?si=R_HvpADef9kJLFUv) in the tutorial video).
+Sometimes, we may only want a current specification to run based on some condition or constraints on the choice of upstream specification. We can write a condition to specify this (see [7:36](https://youtu.be/DdiMZNhu7do?si=--UcC2-hBykYCLyL&t=455) and [11:38](https://youtu.be/DdiMZNhu7do?si=R_HvpADef9kJLFUv) in the tutorial video).
 
 A condition is a python boolean expression that is evalutated on upstream branching. Each transformation on an upstream branch is treated as a list. We can use the keywords `and`, `or`, `in` and `not` to write our expression. For example, if our current spec has the `groupby_player` in its ancestors (i.e., there is a path from `groupby_player` to the current spec) and we want to say that this specification should only occur on the branch containing "filter_rater_combined" we can write the expression below:
 
@@ -179,7 +179,7 @@ Based on your code, add the transform details:
 
 ### Step 2 Add Conceptual Variables
 
-This is where we specify the high-level variables that are related to the research question and dataset (see [13:09 in the tutorial](https://youtu.be/XkaSKPQbSZ8?si=5eGWNf30f5iuCRoB&t=789)). Please inlcude all conceptual variables that you think are relevant and **justified**.
+This is where we specify the high-level variables that are related to the research question and dataset (see [13:09 in the tutorial](https://youtu.be/DdiMZNhu7do?si=5eGWNf30f5iuCRoB&t=789)). Please inlcude all conceptual variables that you think are relevant and **justified**.
 
 > A conceptual variable is an abstract idea or concept that researchers are interested in studying. It represents a broad concept or construct that cannot be directly observed or measured. Instead, researchers create operational definitions or measurable indicators that represent the conceptual variable. For example, "human intelligence" is a conceptual variable that researchers might operationalize using measures such as IQ tests, academic achievement, or problem-solving tasks. Conceptual variables are fundamental to the research process as they guide the development of hypotheses and research designs.
 
@@ -194,7 +194,7 @@ For each conceptual variable please include:
 
 ### Step 3 Add Statistical Model
 
-Here, we specify all alternative statistical models (see [14:46 in the tutorial](https://youtu.be/XkaSKPQbSZ8?si=k2Yh6sFC2S6_XhV4&t=886)).
+Here, we specify all alternative statistical models (see [14:46 in the tutorial](https://youtu.be/DdiMZNhu7do?si=k2Yh6sFC2S6_XhV4&t=886)).
 
 ![](images/model.png)
 
@@ -209,7 +209,7 @@ For each model please specify:
 
 ### Step 4 Review all specifications
 
-After inputting our specifications, we perform a final review to ensure there are no mistakes or inconsistencies (see [16:07 in the tutorial](https://youtu.be/XkaSKPQbSZ8?si=ZM1vMwMPiB_pgoGw&t=968)).
+After inputting our specifications, we perform a final review to ensure there are no mistakes or inconsistencies (see [16:07 in the tutorial](https://youtu.be/DdiMZNhu7do?si=ZM1vMwMPiB_pgoGw&t=968)).
 
 You can view your specifications (transforms, conceptual variables, and statistical models) in the `Summary` page.
 
