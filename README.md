@@ -191,3 +191,10 @@ You can view your specifications (transforms, conceptual variables, and statisti
 In the `Review` page, ensure that there are no warning messages. If there are warning messages, please go back to the specifications and make any neccessary fixes.
 
 Finally, run all code paths again to perform a final check that there are no execution errors.
+
+## Part 2 Labeling Annotations
+<img width="1089" alt="Screenshot 2024-05-09 at 1 28 37 PM" src="https://github.com/codeKgu/AnalysisAgent-Benchmark-Annotation/assets/25317374/fe02c69c-914e-4cfa-b531-a5ce0bd63bb6">
+
+Some time afer completing Part 1, we will provide you additiontional analysis specifications for you to review. The purpose of this is to make our existing specifications more comprehensive as well as provide multiple choice tasks to your benchmark to get a more nuanced understanding of agent/LLM performance. 
+
+All you need to do is go to the **Labeling Annotations** page and follow the instructions there. Be sure to save your annotations or it won't be updated in the database!
