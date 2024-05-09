@@ -8,7 +8,30 @@ At a high level, we want to specify all alternative decisions that you think are
 
 With your help, we would like to collect the ground truth of analysis decisions used for benchmarking the performance of LLMs and agents for data analysis. Your specifications will be used as ground truth from which we measure LLMs against. Here, we describe the protocol for obtaining this data:
 
+# Table of Contents
+
+- [Analysis Benchmark Annotation Protocol](#analysis-benchmark-annotation-protocol)
+- [Table of Contents](#table-of-contents)
+  - [Part 1 Perform your own analysis](#part-1-perform-your-own-analysis)
+    - [Step 1 Conduct the analysis in your own environment](#step-1-conduct-the-analysis-in-your-own-environment)
+    - [Step 2 Consider the types of alternative valid decisions in the analysis](#step-2-consider-the-types-of-alternative-valid-decisions-in-the-analysis)
+    - [FAQs](#faqs)
+      - [What are the expectations for statistical modelling?](#what-are-the-expectations-for-statistical-modelling)
+      - [Do I need to include ML models?](#do-i-need-to-include-ml-models)
+      - [What do you mean by alternative analysis decisions?](#what-do-you-mean-by-alternative-analysis-decisions)
+      - [Where to consider alterneratives?](#where-to-consider-alterneratives)
+  - [Part 2 Add your analysis to the UI](#part-2-add-your-analysis-to-the-ui)
+    - [Step 1 Add Data Transformations](#step-1-add-data-transformations)
+      - [1.1 Basic Info](#11-basic-info)
+      - [1.2 Branching and Dependencies](#12-branching-and-dependencies)
+      - [1.3 Transform Code and Transform Detials](#13-transform-code-and-transform-detials)
+    - [Step 2 Add Conceptual Variables](#step-2-add-conceptual-variables)
+    - [Step 3 Add Statistical Model](#step-3-add-statistical-model)
+    - [Step 4 Review all specifications](#step-4-review-all-specifications)
+  - [Part 3 Labeling Annotations](#part-3-labeling-annotations)
+
 ## Part 1 Perform your own analysis
+
 ![Website](https://img.shields.io/website?url=http%3A%2F%2Fbicycle.cs.washington.edu%3A12000)
 
 The data and interface to specify your transformations, variable, and statistical modeling choices is available at [here](http://bicycle.cs.washington.edu:12000).
@@ -38,6 +61,7 @@ As experts, your extensive experience in conducting thorough and iterative model
 Please note that the focus should be on creating models that are reasonable and justifiable, rather than striving for the level of rigor and thoroughness typically required in practice. We trust your judgment in determining which models are appropriate for inclusion in the ground truth dataset.
 
 #### Do I need to include ML models?
+
 No, ML models (e.g. SVM, Random Forest) should not be included because we don't have prediction tasks.
 
 #### What do you mean by alternative analysis decisions?
@@ -53,7 +77,6 @@ For a given analysis problem, there is a decision space of reasonable analysis d
 Here is a categorization of some of the alternative decision points for your reference:
 
 ![](images/alternatives.png)
-
 
 ## Part 2 Add your analysis to the UI
 
@@ -192,9 +215,10 @@ In the `Review` page, ensure that there are no warning messages. If there are wa
 
 Finally, run all code paths again to perform a final check that there are no execution errors.
 
-## Part 2 Labeling Annotations
+## Part 3 Labeling Annotations
+
 <img width="1089" alt="Screenshot 2024-05-09 at 1 28 37 PM" src="https://github.com/codeKgu/AnalysisAgent-Benchmark-Annotation/assets/25317374/fe02c69c-914e-4cfa-b531-a5ce0bd63bb6">
 
-Some time afer completing Part 1, we will provide you additiontional analysis specifications for you to review. The purpose of this is to make our existing specifications more comprehensive as well as provide multiple choice tasks to your benchmark to get a more nuanced understanding of agent/LLM performance. 
+Some time afer completing Part 1 and 2, we will provide you additiontional analysis specifications for you to review. The purpose of this is to make our existing specifications more comprehensive as well as provide multiple choice tasks to your benchmark to get a more nuanced understanding of agent/LLM performance.
 
 All you need to do is go to the **Labeling Annotations** page and follow the instructions there. Be sure to save your annotations or it won't be updated in the database!
