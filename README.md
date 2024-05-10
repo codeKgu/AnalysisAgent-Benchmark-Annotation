@@ -217,7 +217,7 @@ In the `Review` page, ensure that there are no warning messages. If there are wa
 
 Next, run all code paths again to perform a final check that there are no execution errors.
 
-Finally, once you've finished all the previous steps for this dataset and reviewed all the code paths, you can click the "Finished" button as shown below.
+Finally, once you've finished all the previous steps for this dataset and reviewed all the code paths, you can click the "Finished" button as shown below to notify us about your completion.
 
 ![](images/final-check.png)
 
