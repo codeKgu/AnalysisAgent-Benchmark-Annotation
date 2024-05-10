@@ -215,7 +215,11 @@ You can view your specifications (transforms, conceptual variables, and statisti
 
 In the `Review` page, ensure that there are no warning messages. If there are warning messages, please go back to the specifications and make any neccessary fixes.
 
-Finally, run all code paths again to perform a final check that there are no execution errors.
+Next, run all code paths again to perform a final check that there are no execution errors.
+
+Finally, once you've finished all the previous steps for this dataset and reviewed all the code paths, you can click the "Finished" button as shown below.
+
+![](images/final-check.png)
 
 ## Part 3 Labeling Annotations
 
