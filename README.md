@@ -99,7 +99,7 @@ For each transform we need to specify the following (e.g., [0:07 in the tutorial
 
 - **Specification Name**: A short unique name in snake case (using "\_" as spaces) to identify this transformation (makes it easy to identify)
 - **Specification**: a more descriptive sentence detailing the transformation. Another analyst should be able to code the exact transformation based on this description
-- **Rationale**: Explain why this transformation was chosen. This is not needed for every transformation
+- **Rationale**: Explain why this transformation was chosen.
 
 #### 1.2 Branching and Dependencies
 
@@ -191,6 +191,7 @@ For each conceptual variable please include:
 - **Text specification**: A description fo the conceptual variable/construct
 - **Rationale**: Why is this variable included
 - **Final Output Column(s) for the Concept**: Specify all column(s) either originally in the data or derived from your transformations that you use to operationalize this conceptual variable
+- **Ratoinale for each output column**: Please add an explanation for why each column is chosen to represent this conceptual variable. Or why this transformed version is necessary to represent this conceptual variable.
 
 ### Step 3 Add Statistical Model
 
