@@ -191,7 +191,7 @@ For each conceptual variable please include:
 - **Text specification**: A description fo the conceptual variable/construct
 - **Rationale**: Why is this variable included
 - **Final Output Column(s) for the Concept**: Specify all column(s) either originally in the data or derived from your transformations that you use to operationalize this conceptual variable
-- **Ratoinale for each output column**: Please add an explanation for why each column is chosen to represent this conceptual variable. Or why this transformed version is necessary to represent this conceptual variable.
+- **Rationale for each output column**: Please add an explanation for why each column is chosen to represent this conceptual variable. Or why this transformed version is necessary to represent this conceptual variable.
 
 ### Step 3 Add Statistical Model
 
