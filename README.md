@@ -189,9 +189,11 @@ For each conceptual variable please include:
 
 - **Variable type**: IV, DV, or Control
 - **Text specification**: A description fo the conceptual variable/construct
-- **Rationale**: Why is this variable included
+- **Rationale**: Why this variable is reasonable for the analysis considering the specifics of the research question and dataset (e.g., data availability, quality, suitability etc.)
 - **Final Output Column(s) for the Concept**: Specify all column(s) either originally in the data or derived from your transformations that you use to operationalize this conceptual variable
-- **Rationale for each output column**: Please add an explanation for why each column is chosen to represent this conceptual variable. Or why this transformed version is necessary to represent this conceptual variable.
+- **Rationale for each output column**: Please add an explanation for why each column is chosen to represent this conceptual variable. Or why this transformed version is necessary to represent this conceptual variable. 
+
+*for the rationales here (why the variable is included and ratioanle for the transformation to deriving each column), they will used when other analysts review the choices you made and determine whether the choice is reasonable*
 
 ### Step 3 Add Statistical Model
 
