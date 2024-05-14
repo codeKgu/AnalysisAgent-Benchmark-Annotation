@@ -34,7 +34,7 @@ With your help, we would like to collect the ground truth of analysis decisions 
 
 ![Website](https://img.shields.io/website?url=http%3A%2F%2Fbicycle.cs.washington.edu%3A12000)
 
-The data and interface to specify your transformations, variable, and statistical modeling choices is available at [here](http://bicycle.cs.washington.edu:12000).
+The data and interface to specify your transformations, variable, and statistical modeling choices is available [here](http://bicycle.cs.washington.edu:12000).
 We will give you specific datasets to work on.
 
 ### Step 1 Conduct the analysis in your own environment
