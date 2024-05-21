@@ -1,4 +1,5 @@
-_For the latest updates, please click here:
+_For the latest updates and common issues, please click here:
+
 [![Latest Updates](https://img.shields.io/badge/Latest%20Updates-Available-green)](Updates.md)_
 
 # Analysis Benchmark Annotation Protocol
