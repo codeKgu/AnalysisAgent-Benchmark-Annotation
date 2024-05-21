@@ -1,10 +1,11 @@
-Updates:
+## Updates
 
 5/21 Updated scipy library to version 1.10.
 
 5/20 You can add more than 1 IVs for a model.
 
 
+## Q&A
 
 **Should I record all the models I try or only the final models?**
 
