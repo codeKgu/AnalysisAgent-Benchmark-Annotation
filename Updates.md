@@ -18,8 +18,8 @@ Examples:
 **How should I specify alternatives if there are many combinations of reasonable transformations?**
 
 A: Specify 2 main branches:
-Branch 1: Apply all N transformations to the root, then apply subsequent transformations to the result.
-Branch 2: No transformations needed. Apply subsequent transformations directly to the root.
+  - Branch 1: Apply all N transformations to the root, then apply subsequent transformations to the result.
+  - Branch 2: No transformations needed. Apply subsequent transformations directly to the root.
 
 **How do I handle a conceptual variable that maps to multiple columns in the data?**
 
