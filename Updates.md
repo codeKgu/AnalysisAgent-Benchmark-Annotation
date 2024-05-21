@@ -16,10 +16,12 @@ A: As experts, your extensive experience in conducting thorough and iterative mo
 A: Only include models that you would present to another analyst as reasonable. If a naive model shows critical issues (e.g. non-normal residuals), it is not reasonable and does not need to be recorded.
 
 **Q1.2: Do I need to include ML models?**
-No, ML models (e.g. SVM, Random Forest) should not be included because we don't have prediction tasks.
+
+A: No, ML models (e.g. SVM, Random Forest) should not be included because we don't have prediction tasks.
 
 **Q2: What do you mean by alternative analysis decisions?**
-For a given analysis problem, there is a decision space of reasonable analysis decisions surrounding the conceptual model and data transformations. Alternative decisions are equally justifiable choices within this decision space. The justifiability of decisions involves rationales tied to the data, your analysis method, prior experience, some domain knowledge.
+
+A: For a given analysis problem, there is a decision space of reasonable analysis decisions surrounding the conceptual model and data transformations. Alternative decisions are equally justifiable choices within this decision space. The justifiability of decisions involves rationales tied to the data, your analysis method, prior experience, some domain knowledge.
 
 **Q2.1: How should I specify alternatives if there are many combinations of reasonable transformations?**
 
