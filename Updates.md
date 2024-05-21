@@ -9,11 +9,7 @@
 
 **Q1: Should I record all the models I try or only the final models?**
 
-A: Only include models that you consider reasonable and would present to another analyst. If an initial model shows issues, iterate to improve it, but only record the final model(s) you deem appropriate.
-
-Examples:
-- You fit a model predicting red cards from player skin tone, but the residuals are highly non-normal. After log-transforming the outcome variable, the residuals look good. Record only the final log-transformed model.
-- You fit several models predicting red cards from player skin tone, with different combinations of control variables. After comparing their performance, you decide that controlling for number of games and player position is most appropriate. Record only this final model with your chosen controls.
+A: Only include models that you would present to another analyst as reasonable. If a naive model shows critical issues (e.g. non-normal residuals), it is not reasonable and does not need to be recorded.
 
 **Q2: How should I specify alternatives if there are many combinations of reasonable transformations?**
 
