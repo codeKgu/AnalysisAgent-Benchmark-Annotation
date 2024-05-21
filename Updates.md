@@ -5,7 +5,7 @@
 + 5/20 You can add more than 1 IVs for a model.
 
 
-## Q&A
+## Q&A for common issues
 
 **Q1: What are the expectations for statistical modelling?**
 
