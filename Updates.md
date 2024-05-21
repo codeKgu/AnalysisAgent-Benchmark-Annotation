@@ -1,8 +1,8 @@
 ## Updates
 
-<span style="color: green;">5/21 Updated SciPy library to version 1.10.</span>
++ 5/21 Updated SciPy library to version 1.10.
 
-<span style="color: green;">5/20 You can add more than 1 IVs for a model.</span>
++ 5/20 You can add more than 1 IVs for a model.
 
 
 ## Q&A
