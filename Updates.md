@@ -38,7 +38,7 @@ Example: The conceptual variable "Referee Bias" is represented by "meanIAT" (imp
 
 **Q4: What are the guidelines for naming conceptual variables?**
 
-A: Names should be clear and specific, but not overly detailed. 
+A: Names should be clear and specific, but not overly detailed. It should be clear enough for LLM or someone else to undersatnd but not going into details of how you've operationalized it.
 
 Good examples:
 - "Player Skin Tone", "Number of Red Cards", "Average Referee Implicit Bias"
