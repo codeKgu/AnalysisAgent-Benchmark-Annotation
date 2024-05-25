@@ -1,7 +1,7 @@
 ## Updates
 + 5/24
-+ Update A:
-  Thanks for everyone's hard work and consistent engagement so far. We want to remind everyone about our timeline. The deadline for annotations is Sunday (6/9). Starting today, everyone have roughly another 2 weeks to complete 10 datasets. We want to make sure we have enough time to merge and process everyone's submission. Let us know as soon as possible if you have change in plans.
+  Update A:
+  Thanks for everyone's hard work and consistent engagement so far. We want to remind everyone about our timeline. **The deadline for annotations is Sunday (6/9). Starting today, everyone have roughly another 2 weeks to complete 10 datasets.** We want to make sure we have enough time to merge and process everyone's submission. Let us know as soon as possible if you have change in plans.
 
   Update B:
   We've been through everyone's first few submissions of completed annotations, and here are a few issues and things to look out for. **If you haven't completed any submissions, please do so by the end of this Sunday (5/26)**
