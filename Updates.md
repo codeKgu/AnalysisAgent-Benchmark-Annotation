@@ -1,17 +1,22 @@
 ## Updates
-+ 5/24
-  Update A:
-  Thanks for everyone's hard work and consistent engagement so far. We want to remind everyone about our timeline. **The deadline for annotations is Sunday (6/9). Starting today, everyone have roughly another 2 weeks to complete 10 datasets.** We want to make sure we have enough time to merge and process everyone's submission. Let us know as soon as possible if you have change in plans.
++ 5/26
+  **Update on the cross-validation phase:**
+  Since we have collected more than 1 annotations for a few datasets, we are preparing materials for cross-annotator validation. We will let you know once this is ready in the system. You can then proceed to do some binary labeling for LLM-generated and annotator-generated inputs.
+   
++ 5/25
+  Thanks for everyone's hard work and consistent engagement so far. We want to remind everyone about our timeline. **The deadline for annotations is Sunday (6/9). Starting today, everyone have roughly another 2 weeks to complete 10 datasets.** We want to make sure we have enough time to merge and process everyone's submission. Let us know if you have change in plans.
+  **Also, please let me know once you have completed all the assigned datasets so that I can assign new ones to you as soon as possible.**
 
-  Update B:
-  We've been through everyone's first few submissions of completed annotations, and here are a few issues and things to look out for. **If you haven't completed any submissions, please do so by the end of this Sunday (5/26)**
++ 5/24
+  We've been through everyone's first few submissions of completed annotations, and here are a few issues and things to look out for.
     1. When adding conceptual variables and assigning columns, check if you will include these columns in the same model:
         - If so, it should be under separate conceptual variables.
         - If not, it should be under the same variable and added when you add an alternative model. (Make sure that all the columns added to the conceptual variables are specified in at least one of the models.)
     ONE EXCEPTION: one-hot encoding may result in multiple columns that are conceptually the same. In this case, you can add them under the same conceptual variable and use them in the same model.
     2. When do I add a dependency?
-        1. If a transformation modify the row of the dataframe (e.g. filter), all your following transformations should depend on this.
-        2. If there is a previous transformation that operates on the same column.
+        1. If a transformation modify the row of the dataframe (e.g. filtering some values at the beginning), all your following transformations should depend on this > ✅ add dependency
+        2. If there is a previous transformation that operates on the same column > ✅ add dependency
+        3. If a transformation modify a column that is independent of the other columns (i.e., when to do this transformation doesn't matter) > 🙅 no need to add dependency
            
 + 5/21 Updated SciPy library to version 1.10.
 
