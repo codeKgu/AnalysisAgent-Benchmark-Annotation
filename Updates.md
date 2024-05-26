@@ -14,6 +14,9 @@
   **Also, please let me know once you have completed all the assigned datasets so that I can assign new ones to you as soon as possible.**
 
 + 5/24
+
+  **Update on important common issues:**
+  
   We've been through everyone's first few submissions of completed annotations, and here are a few issues and things to look out for.
     1. When adding conceptual variables and assigning columns, check if you will include these columns in the same model:
         - If so, it should be under separate conceptual variables.
