@@ -1,9 +1,14 @@
 ## Updates
 + 5/26
+  
   **Update on the cross-validation phase:**
+
   Since we have collected more than 1 annotations for a few datasets, we are preparing materials for cross-annotator validation. We will let you know once this is ready in the system. You can then proceed to do some binary labeling for LLM-generated and annotator-generated inputs.
    
 + 5/25
+
+  **Update on timeline:**
+
   Thanks for everyone's hard work and consistent engagement so far. We want to remind everyone about our timeline. **The deadline for annotations is Sunday (6/9). Starting today, everyone have roughly another 2 weeks to complete ~10 datasets.** We want to make sure we have enough time to merge and process everyone's submission. Let us know if you have change in plans.
   
   **Also, please let me know once you have completed all the assigned datasets so that I can assign new ones to you as soon as possible.**
