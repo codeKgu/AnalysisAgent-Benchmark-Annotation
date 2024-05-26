@@ -18,11 +18,12 @@
   **Update on important common issues:**
   
   We've been through everyone's first few submissions of completed annotations, and here are a few issues and things to look out for.
-    1. When adding conceptual variables and assigning columns, check if you will include these columns in the same model:
+    1. Make sure that ALL the columns that you've assigned to conceptual variables are included in at least one of your models.
+        When adding conceptual variables and assigning columns, check if you will include these columns in the same model:
         - If so, it should be under separate conceptual variables.
-        - If not, it should be under the same variable and added when you add an alternative model. (Make sure that all the columns added to the conceptual variables are specified in at least one of the models.)
+        - If not, it should be under the same variable and added when you add an alternative model.
     ONE EXCEPTION: one-hot encoding may result in multiple columns that are conceptually the same. In this case, you can add them under the same conceptual variable and use them in the same model.
-    2. When do I add a dependency?
+    3. When do I add a dependency?
         1. If a transformation modify the row of the dataframe (e.g. filtering some values at the beginning), all your following transformations should depend on this > ✅ add dependency
         2. If there is a previous transformation that operates on the same column > ✅ add dependency
         3. If a transformation modify a column that is independent of the other columns (i.e., when to do this transformation doesn't matter) > 🙅 no need to add dependency
