@@ -271,5 +271,5 @@ All you need to do is go to the **Labeling Annotations** page and follow the ins
 
 ---
 
-* If a transformed variable combines the dependent variable (DV) and independent variable (IV), such as DV divided by IV, it can make it difficult to directly examine the relationships between the DV, IV, and control variables. While the transformed variable itself may not be incorrect, it may hinder the ability to easily answer the research question by obscuring the individual effects of the IV and control variables on the DV
+* One example of a "No" Label for **Q1**b: If a transformed variable combines the dependent variable (DV) and independent variable (IV), such as DV divided by IV, it can make it difficult to directly examine the relationships between the DV, IV, and control variables. While the transformed variable itself may not be incorrect, it may hinder the ability to easily answer the research question by obscuring the individual effects of the IV and control variables on the DV
 
