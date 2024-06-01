@@ -240,27 +240,28 @@ All you need to do is go to the **Labeling Annotations** page and follow the ins
 
 **Goal of this phase is to strengthen our ground truth by:**
 - Generating some negative examples in the benchmark multiple choice tasks for LLMs
-- Reviewing each others’ inputs for higher validity
+- Reviewing each others’ inputs for higher quality and validity
 - Getting inspired from these inputs and add more to your ground truth set
     - We encourage you to take notes along the process and add something to your own dataset if something inspires you of a cv/transform/model that you don’t see in the labeling or your own ground truth dataset
+    - 🚀 The more we can claim our ground truth to be **comprehensive** the stronger our paper.
 
 For each of the conceptual variables, make 2 independent judgements:
 * Q1a: Can this variable be derived from the columns (you can open up the column description on the side)
 * Q1b: Is it reasonable to include this variable in subsequent modeling to sufficiently answer the RQ?
     * Provide a rationale for your decision
-* Q1c: Is the rationale reasonable for why they choose to include this conceptual variable?
+* Q1c: Is the given rationale (not the one you just wrote) reasonable for why they choose to include this conceptual variable?
 
 For each of the transformations, make 2 independent judgements:
 * Q2a: Is the choice of transformations reasonable to derive this variable?
 * Q2b: Is the coded transformations consistent with and reasonable for the approach for deriving this column?
 * Provide a rationale for both of the above decisions
-* Q2c: Is the rationale reasonable for why they choose to perform this transformation?
+* Q2c: Is the given rationale (not the one you just wrote) reasonable for why they choose to perform this transformation?
 
 **Important things to note:**
+❗️ When answering the above the framing you should have is to think whether it would be reasonable to have the conceptual variable or transforms in any reasonable analysis given the research question and dataset.
 
 * Q: What if the conceptual variable is reasonable and can be derived, but I don’t agree with its rationale?
-  
-  A: You should still put “Yes” for both these labels, because the rationale are just used to facilitate, but independent of your other labels.
+  A: Given the framing above. You should still put “Yes” for both these labels, because the rationale are just used to facilitate, but independent of your other labels.
 
 
 * If a transformed variable combines the dependent variable (DV) and independent variable (IV), such as DV divided by IV, it can make it difficult to directly examine the relationships between the DV, IV, and control variables. While the transformed variable itself may not be incorrect, it may hinder the ability to easily answer the research question by obscuring the individual effects of the IV and control variables on the DV
