@@ -236,12 +236,12 @@ Some time afer completing Part 1 and 2, we will provide you additiontional analy
 
 All you need to do is go to the **Labeling Annotations** page and follow the instructions there. Be sure to save your annotations or it won't be updated in the database!
 
-Annotation Phase Instructions
+### Annotation Phase Instructions
 
-Goal of this phase is that:
-- Generate some negative examples in the benchmark multiple choice tasks for LLMs
-- Review each others’ inputs for higher validity
-- Get inspired from these inputs and add more to your ground truth set
+**Goal of this phase is to strengthen our ground truth by:**
+- Generating some negative examples in the benchmark multiple choice tasks for LLMs
+- Reviewing each others’ inputs for higher validity
+- Getting inspired from these inputs and add more to your ground truth set
     - We encourage you to take notes along the process and add something to your own dataset if something inspires you of a cv/transform/model that you don’t see in the labeling or your own ground truth dataset
 
 For each of the conceptual variables, make 2 independent judgements:
@@ -257,8 +257,10 @@ For each of the transformations, make 2 independent judgements:
 * Q2c: Is the rationale reasonable for why they choose to perform this transformation?
 
 Important things to note:
-- Q: What if the conceptual variable is reasonable and can be derived, but I don’t agree with its rationale?
-- A: You should still put “Yes” for both these labels, because the rationale are just used to facilitate, but independent of your other labels.
+1.
+Q: What if the conceptual variable is reasonable and can be derived, but I don’t agree with its rationale?
+A: You should still put “Yes” for both these labels, because the rationale are just used to facilitate, but independent of your other labels.
 
+2.
 - If a transformed variable combines the dependent variable (DV) and independent variable (IV), such as DV divided by IV, it can make it difficult to directly examine the relationships between the DV, IV, and control variables. While the transformed variable itself may not be incorrect, it may hinder the ability to easily answer the research question by obscuring the individual effects of the IV and control variables on the DV
 
