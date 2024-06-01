@@ -235,3 +235,30 @@ Finally, once you've finished all the previous steps for this dataset and review
 Some time afer completing Part 1 and 2, we will provide you additiontional analysis specifications for you to review. The purpose of this is to make our existing specifications more comprehensive as well as provide multiple choice tasks to your benchmark to get a more nuanced understanding of agent/LLM performance.
 
 All you need to do is go to the **Labeling Annotations** page and follow the instructions there. Be sure to save your annotations or it won't be updated in the database!
+
+Annotation Phase Instructions
+
+Goal of this phase is that:
+- Generate some negative examples in the benchmark multiple choice tasks for LLMs
+- Review each others’ inputs for higher validity
+- Get inspired from these inputs and add more to your ground truth set
+    - We encourage you to take notes along the process and add something to your own dataset if something inspires you of a cv/transform/model that you don’t see in the labeling or your own ground truth dataset
+
+For each of the conceptual variables, make 2 independent judgements:
+* Q1a: Can this variable be derived from the columns (you can open up the column description on the side)
+* Q1b: Is it reasonable to include this variable in subsequent modeling to sufficiently answer the RQ?
+    * Provide a rationale for your decision
+* Q1c: Is the rationale reasonable for why they choose to include this conceptual variable?
+
+For each of the transformations, make 2 independent judgements:
+* Q2a: Is the choice of transformations reasonable to derive this variable?
+* Q2b: Is the coded transformations consistent with and reasonable for the approach for deriving this column?
+* Provide a rationale for both of the above decisions
+* Q2c: Is the rationale reasonable for why they choose to perform this transformation?
+
+Important things to note:
+- Q: What if the conceptual variable is reasonable and can be derived, but I don’t agree with its rationale?
+- A: You should still put “Yes” for both these labels, because the rationale are just used to facilitate, but independent of your other labels.
+
+- If a transformed variable combines the dependent variable (DV) and independent variable (IV), such as DV divided by IV, it can make it difficult to directly examine the relationships between the DV, IV, and control variables. While the transformed variable itself may not be incorrect, it may hinder the ability to easily answer the research question by obscuring the individual effects of the IV and control variables on the DV
+
