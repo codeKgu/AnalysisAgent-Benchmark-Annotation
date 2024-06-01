@@ -261,15 +261,13 @@ All you need to do is go to the **Labeling Annotations** page and follow the ins
 
 ❗️ When answering the above the framing you should have is to think whether it would be reasonable to have the conceptual variable or transforms in any reasonable analysis given the research question and dataset.
 
-❗️Remember to save your annotations to the database by clicking the `Save annotations` button
+❗ Remember to save your annotations to the database by clicking the `Save annotations` button
+
+❗️ One example of a "No" Label for **Q1**b: If a transformed variable combines the dependent variable (DV) and independent variable (IV), such as DV divided by IV, it can make it difficult to directly examine the relationships between the DV, IV, and control variables. While the transformed variable itself may not be incorrect, it may hinder the ability to easily answer the research question by obscuring the individual effects of the IV and control variables on the DV
+
 
 #### FAQ
 
 **Q**: What if the conceptual variable is reasonable and can be derived, but I don’t agree with its rationale?
 
 **A**: Given the framing above. You should still put “Yes” for both these labels, because the rationale are just used to facilitate, but independent of your other labels.
-
----
-
-* One example of a "No" Label for **Q1**b: If a transformed variable combines the dependent variable (DV) and independent variable (IV), such as DV divided by IV, it can make it difficult to directly examine the relationships between the DV, IV, and control variables. While the transformed variable itself may not be incorrect, it may hinder the ability to easily answer the research question by obscuring the individual effects of the IV and control variables on the DV
-
