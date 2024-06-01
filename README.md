@@ -259,6 +259,7 @@ For each of the transformations, make 2 independent judgements:
 **Important things to note:**
 
 * Q: What if the conceptual variable is reasonable and can be derived, but I don’t agree with its rationale?
+  
   A: You should still put “Yes” for both these labels, because the rationale are just used to facilitate, but independent of your other labels.
 
 
