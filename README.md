@@ -271,3 +271,7 @@ All you need to do is go to the **Labeling Annotations** page and follow the ins
 **Q**: What if the conceptual variable is reasonable and can be derived, but I don’t agree with its rationale?
 
 **A**: Given the framing above. You should still put “Yes” for both these labels, because the rationale are just used to facilitate, but independent of your other labels.
+
+**Q**: Why do I see multiple inputs (transformation or conceptual variables) that are very similar?
+
+**A**: We combine different annotator-generated and LLMs-generated specifications together in this review round. So it is normal to see very similar ones.
